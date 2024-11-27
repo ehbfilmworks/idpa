@@ -1,49 +1,15 @@
-name: Deploy
-
-on:
-  push:
-    branches:
-      - main
-
+name: Build Vue
+on: [push]
 jobs:
-  build:
-    name: Build
+  build_vue:
     runs-on: ubuntu-latest
-
+    name: Build Vue
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-
-      - name: Install dependencies
-        uses: bahmutov/npm-install@v1
-
-      - name: Build project
-        run: npm run build
-
-      - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3
-        with:
-          name: production-files
-          path: ./dist
-
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: production-files
-          path: ./dist
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+    - uses: actions/checkout@v2
+    - id: Build-Vue
+      uses: xRealNeon/VuePagesAction@1.0.1
+      with:
+        cname: ehbfilmworks.ch
+        username: 'ehbfilmworks'
+        reponame: 'idpa'
+        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
