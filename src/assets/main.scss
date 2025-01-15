@@ -87,31 +87,35 @@ div.container a
 }
 
 .video-wrapper {
-    position: relative;
-    height: 100%;          /* Höhe des Video-Containers */
-    overflow: hidden;
+    position: relative; /* Container für das Video und Overlay */
+    width: 100%; /* Container nimmt die gesamte Breite ein */
+    height: 100vh; /* Höhe des Containers entspricht der Viewport-Höhe */
+    overflow: hidden; /* Überschüssige Inhalte (Video) werden ausgeblendet */
+    background: black; /* Fallback-Hintergrundfarbe */
 }
-.background-video {
-    position: fixed;        /* Video bleibt beim Scrollen sichtbar */
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%); /* Zentriert das Video horizontal */
-    min-width: 100%;       /* Stellt sicher, dass das Video die Breite der Seite ausfüllt */
-    height: 100%;
-    z-index: -1;            /* Video bleibt im Hintergrund */
+.backgroundVideo {
+    position: absolute; /* Exakte Platzierung innerhalb des Containers */
+    top: 50%; /* Vertikale Mitte */
+    left: 50%; /* Horizontale Mitte */
+    transform: translate(-50%, -50%); /* Zentrierung */
+    min-width: 100%; /* Mindestens die gesamte Breite ausfüllen */
+    min-height: 100%; /* Mindestens die gesamte Höhe ausfüllen */
+    width: auto; /* Dynamische Breite, um das Seitenverhältnis zu wahren */
+    height: auto; /* Dynamische Höhe, um das Seitenverhältnis zu wahren */
+    z-index: 1; /* Hinter allen anderen Elementen bleiben */
 }
-
 
 .text-overlay {
-    position: absolute;
-    font-size: 50px;    /* Absolut im Container positioniert */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Zentriert den Text */
-    color: white;
+    position: absolute; /* Text über dem Video platzieren */
+    top: 50%; /* Vertikale Mitte */
+    left: 50%; /* Horizontale Mitte */
+    transform: translate(-50%, -50%); /* Zentrierung */
     text-align: center;
-    z-index: 1;                    /* Über dem Video */
+    color: white;
+    z-index: 1; /* Über dem Video anzeigen */
 }
+
+
 
 .removeDot {
     list-style-type: none; /* Entfernt Aufzählungszeichen von allen <li> in der Liste */

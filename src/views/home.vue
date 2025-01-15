@@ -1,13 +1,14 @@
 <template>
-  <div class="video-wrapper mb-5">
-    <video loop autoplay muted class="backgroundVideo">
+  <div class="video-wrapper">
+    <video loop autoplay muted playsinline class="backgroundVideo">
       <source src="/img/homevideo.mp4" type="video/mp4">
+      <!-- Fallback für nicht unterstützte Browser -->
+      Your browser does not support the video tag.
     </video>
     <div class="text-overlay">
-      <h1 style="font-size: 70px">Turn Ideas into Action</h1>
-      <h2 style="font-size: 40px">Time is limited</h2>
+      <h1>Turn Ideas into Action</h1>
+      <h2>Time is limited</h2>
     </div>
-
   </div>
 
   <div class="container">
@@ -74,8 +75,9 @@
       <div class="blog-container">
         <div class="blog-card">
           <div class="meta">
-            <div class="photo"
-                 style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+            <div class="photo">
+              <img src="/img/golfplatzmeggen.jpg" alt="Golfplatz Meggen">
+            </div>
             <ul class="details">
               <li class="author"><a href="#">Zum Video</a></li>
             </ul>
@@ -89,28 +91,21 @@
             </p>
           </div>
         </div>
-        <div class="blog-card alt">
+        <div class="blog-card">
           <div class="meta">
-            <div class="photo"
-                 style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+            <div class="photo">
+              <img src="/img/HotelPalace.jpg" alt="Hotel Palace">
+            </div>
             <ul class="details">
-              <li class="author"><a href="#">Jane Doe</a></li>
-              <li class="date">July. 15, 2015</li>
-              <li class="tags">
-                <ul>
-                  <li><a href="#">Learn</a></li>
-                  <li><a href="#">Code</a></li>
-                  <li><a href="#">JavaScript</a></li>
-                </ul>
-              </li>
+              <li class="author"><a href="#">Zum Video</a></li>
             </ul>
           </div>
           <div class="description">
-            <h1>Mastering the Language</h1>
-            <h2>Java is not the same as JavaScript</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <h1>Golfplatz Meggen</h1>
+            <h2>vom 1.11.2024</h2>
+            <p>Es gibt sehr viele gute Gründe, Golf zu spielen. Golfen ist für jedes Alter geeignet, hält fit und bereitet...</p>
             <p class="read-more">
-              <a href="#">Read More</a>
+              <a href="#">Mehr zum Projekt</a>
             </p>
           </div>
         </div>
