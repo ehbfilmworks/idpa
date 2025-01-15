@@ -101,9 +101,9 @@
             </ul>
           </div>
           <div class="description">
-            <h1>Golfplatz Meggen</h1>
-            <h2>vom 1.11.2024</h2>
-            <p>Es gibt sehr viele gute Gründe, Golf zu spielen. Golfen ist für jedes Alter geeignet, hält fit und bereitet...</p>
+            <h1>Hotel Palace Gstaad</h1>
+            <h2>vom 15.12.2024</h2>
+            <p>Das Gstaad Palace verzaubert seit über einem Jahrhundert Gäste aus nah und fern ...</p>
             <p class="read-more">
               <a href="#">Mehr zum Projekt</a>
             </p>

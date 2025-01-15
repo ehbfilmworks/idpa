@@ -1,215 +1,207 @@
-/*PEN STYLES*/
-
+/* Farben */
 $color_white: #fff;
 $color_prime: #5ad67d;
 $color_grey: #e2e2e2;
 $color_grey_dark: #a2a2a2;
 
-.blog-card {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem auto;
-  box-shadow: 0 3px 7px -1px rgba(#000, .1);
-  margin-bottom: 1.6%;
-  background: $color_white;
-  line-height: 1.4;
-  font-family: sans-serif;
-  border-radius: 5px;
-  overflow: hidden;
-  z-index: 0;
-  a {
-    color: inherit;
-    &:hover {
-      color: $color_prime;
-    }
-  }
-  &:hover {
-    .photo {
-      transform: scale(1.3) rotate(3deg);
-    }
-  }
-  .meta {
-    position: relative;
-    z-index: 0;
-    height: 200px;
-  }
-  .photo {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    transition: transform .2s;
-  }
-  .details,
-  .details ul {
-    margin: auto;
-    padding: 0;
-    list-style: none;
-  }
-
-  .details {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -100%;
-    margin: auto;
-    transition: left .2s;
-    background: rgba(#000, .6);
-    color: $color_white;
-    padding: 10px;
-    width: 100%;
-    font-size: .9rem;
-    a {
-      text-decoration: dotted underline
-    }
-    ul li {
-      display: inline-block;
-    }
-    .author:before {
-      font-family: FontAwesome;
-      margin-right: 10px;
-      content: "\f007";
-    }
-
-    .date:before {
-      font-family: FontAwesome;
-      margin-right: 10px;
-      content: "\f133";
-    }
-
-    .tags {
-      ul:before {
-        font-family: FontAwesome;
-        content: "\f02b";
-        margin-right: 10px;
-      }
-      li {
-        margin-right: 2px;
-        &:first-child {
-          margin-left: -4px;
-        }
-      }
-    }
-  }
-  .description {
-    padding: 1rem;
-    background: $color_white;
-    position: relative;
-    z-index: 1;
-    h1,
-    h2 {
-      font-family: Poppins, sans-serif;
-    }
-    h1 {
-      line-height: 1;
-      margin: 0;
-      font-size: 1.7rem;
-    }
-    h2 {
-      font-size: 1rem;
-      font-weight: 300;
-      text-transform: uppercase;
-      color: $color_grey_dark;
-      margin-top: 5px;
-    }
-    .read-more {
-      text-align: right;
-      a {
-        color: $color_prime;
-        display: inline-block;
-        position: relative;
-        &:after {
-          content: "\f061";
-          font-family: FontAwesome;
-          margin-left: -10px;
-          opacity: 0;
-          vertical-align: middle;
-          transition: margin .3s, opacity .3s;
-        }
-
-        &:hover:after {
-          margin-left: 5px;
-          opacity: 1;
-        }
-      }
-    }
-  }
-  p {
-    position: relative;
-    margin: 1rem 0 0;
-    &:first-of-type {
-      margin-top: 1.25rem;
-      &:before {
-        content: "";
-        position: absolute;
-        height: 5px;
-        background: $color_prime;
-        width: 35px;
-        top: -0.75rem;
-        border-radius: 3px;
-      }
-    }
-  }
-  &:hover {
-    .details {
-      left: 0%;
-    }
-  }
-
-
-  @media (min-width: 640px) {
-    flex-direction: row;
-    max-width: 700px;
-    .meta {
-      flex-basis: 40%;
-      height: auto;
-    }
-    .description {
-      flex-basis: 60%;
-      &:before {
-        transform: skewX(-3deg);
-        content: "";
-        background: #fff;
-        width: 30px;
-        position: absolute;
-        left: -10px;
-        top: 0;
-        bottom: 0;
-        z-index: -1;
-      }
-    }
-    &.alt {
-      flex-direction: row-reverse;
-      .description {
-        &:before {
-          left: inherit;
-          right: -10px;
-          transform: skew(3deg)
-        }
-      }
-      .details {
-        padding-left: 25px;
-      }
-    }
-  }
-}
-
+/* Container für Blog-Karten */
 .blog-container {
   display: flex;
-  flex-wrap: wrap; /* Falls Platz zu eng wird, Boxen umbrechen */
+  flex-wrap: wrap; /* Boxen umbrechen bei Platzmangel */
   gap: 20px; /* Abstand zwischen den Boxen */
   align-items: flex-start; /* Boxen oben ausrichten */
 }
 
+/* Blog-Karten */
 .blog-card {
-  flex: 0 0 calc(50% - 20px); /* Boxen jeweils 50% der Breite minus Abstand */
+  display: flex;
+  flex-direction: column; /* Inhalt vertikal anordnen */
+  flex: 0 0 calc(50% - 20px); /* Breite: 50% minus Abstand */
   margin: 0; /* Entfernt Auto-Zentrierung */
+  background: $color_white;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden; /* Inhalte, die herausragen, verstecken */
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03); /* Leichtes Vergrößern beim Hover */
+  }
 }
 
+/* Alternativer Blog-Karten-Stil */
 .blog-card.alt {
-  flex: 0 0 calc(50% - 20px); /* Gleiche Breite wie die andere Box */
+  flex-direction: row-reverse;
+}
+
+/* Meta-Daten (Bildcontainer) */
+.meta {
+  position: relative;
+  width: 100%;
+  height: 200px; /* Festgelegte Höhe für das Bild */
+  overflow: hidden; /* Verhindert Überlauf des Bildes */
+}
+
+/* Bild */
+.photo {
+  width: 100%;
+  height: 100%;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Sorgt dafür, dass das Bild den Container füllt */
+  transition: transform 0.3s ease; /* Weiche Übergänge beim Hover */
+}
+
+/* Details über das Bild (Autor, Datum, Tags) */
+.details {
+  position: absolute;
+  top: 0;
+  left: -100%; /* Versteckt die Details */
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: $color_white;
+  padding: 10px;
+  font-size: 0.9rem;
+  transition: left 0.2s;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  a {
+    text-decoration: dotted underline;
+    color: inherit;
+
+    &:hover {
+      color: $color_prime;
+    }
+  }
+
+  .author:before {
+    content: "\f007"; /* FontAwesome Symbol */
+    font-family: FontAwesome;
+    margin-right: 10px;
+  }
+
+  .date:before {
+    content: "\f133"; /* FontAwesome Symbol */
+    font-family: FontAwesome;
+    margin-right: 10px;
+  }
+
+  .tags ul:before {
+    content: "\f02b"; /* FontAwesome Symbol */
+    font-family: FontAwesome;
+    margin-right: 10px;
+  }
+}
+
+/* Beschreibung unter dem Bild */
+.description {
+  padding: 1rem;
+  background: $color_white;
+
+  h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 1.7rem;
+    margin: 0;
+    line-height: 1;
+  }
+
+  h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color_grey_dark;
+    margin-top: 5px;
+  }
+
+  p {
+    margin: 1rem 0 0;
+    position: relative;
+
+    &:first-of-type {
+      margin-top: 1.25rem;
+
+      &:before {
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 35px;
+        top: -0.75rem;
+        background: $color_prime;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  .read-more {
+    text-align: right;
+
+    a {
+      color: $color_prime;
+      position: relative;
+
+      &:after {
+        content: "\f061"; /* FontAwesome Symbol */
+        font-family: FontAwesome;
+        margin-left: -10px;
+        opacity: 0;
+        transition: margin 0.3s, opacity 0.3s;
+      }
+
+      &:hover:after {
+        margin-left: 5px;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+/* Responsive Design */
+@media (min-width: 640px) {
+  .blog-card {
+    flex-direction: row; /* Inhalt horizontal anordnen */
+    max-width: 700px;
+  }
+
+  .blog-card .meta {
+    flex-basis: 40%; /* 40% für Bildcontainer */
+    height: auto; /* Höhe passt sich Inhalt an */
+  }
+
+  .blog-card .description {
+    flex-basis: 60%; /* 60% für Text */
+    position: relative;
+
+    &:before {
+      content: "";
+      background: $color_white;
+      width: 30px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -10px;
+      z-index: -1;
+      transform: skewX(-3deg);
+    }
+  }
+
+  .blog-card.alt .description:before {
+    left: auto;
+    right: -10px;
+    transform: skewX(3deg);
+  }
 }
