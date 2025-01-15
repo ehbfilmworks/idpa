@@ -11,7 +11,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
             <i class="fas fa-map-marker-alt"></i>
             <div class="footer-widget">
               <div class="footer-logo">
-                <img src="/img/Logo_EHB_Filmworks_SW.png" class="img-fluid" alt="logo">
+                <img src="/img/Logo_EHB_Filmworks_white.png" class="img-fluid" alt="logo">
               </div>
             </div>
           </div>
