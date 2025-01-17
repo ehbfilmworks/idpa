@@ -32,7 +32,7 @@ import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
             <i class="far fa-envelope-open"></i>
             <div class="cta-text">
               <h4>Mail us</h4>
-              <a  class="m-0 p-0 pt-5" href="mailto:ehb@gmail.com" style="color: white; font-size: 15px">ehb@gmail.com</a>
+              <a  class="m-0 p-0 pt-5" href="mailto:ehbfilmworks@gmail.com" style="color: white; font-size: 15px">ehb@gmail.com</a>
             </div>
           </div>
         </div>
