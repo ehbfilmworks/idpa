@@ -26,7 +26,7 @@
     </div>
 
     <div style="margin-top: 100px">
-      <h2 class="ms-3">Angebot</h2>
+      <h2 class="ms-3">Kompetenzen</h2>
       <section class="hero-section mt-4">
         <div class="card-grid">
           <a class="card" href="#">
@@ -87,7 +87,7 @@
             <h2>vom 1.11.2024</h2>
             <p>Es gibt sehr viele gute Gründe, Golf zu spielen. Golfen ist für jedes Alter geeignet, hält fit und bereitet...</p>
             <p class="read-more">
-              <a href="#">Mehr zum Projekt</a>
+              <a href="/projects">Mehr zum Projekt</a>
             </p>
           </div>
         </div>
@@ -105,7 +105,7 @@
             <h2>vom 15.12.2024</h2>
             <p>Das Gstaad Palace verzaubert seit über einem Jahrhundert Gäste aus nah und fern ...</p>
             <p class="read-more">
-              <a href="#">Mehr zum Projekt</a>
+              <a href="/projects">Mehr zum Projekt</a>
             </p>
           </div>
         </div>
