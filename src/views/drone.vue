@@ -1,6 +1,6 @@
 <template>
   <div class="container" style="margin-top: 10%">
-    <h1>Tutorial: Das Fliegen einer FPV-Drohne </h1>
+    <h1>Equipment</h1>
     <p>Das Fliegen einer FPV-Drohne (First-Person-View) ist ein aufregendes Hobby, das schnelle Reaktionen und präzise
       Steuerung erfordert. Hier ist ein detailliertes Tutorial, das dir hilft, sicher und erfolgreich in die Welt des
       FPV-Drohnenflugs einzusteigen.</p>
