@@ -4,9 +4,9 @@
     <h3>Vergangene Projekte:</h3>
     <div style="margin-top: 100px">
       <div class="blog-container">
-        <div class="blog-card">
+        <div class="blog-card" @click="redirect('/meggen')">
           <div class="meta">
-            <div><img class="photo" src="/img/sample3.jpg" alt="sample3"></div>
+            <div><img class="photo" src="/img/golfplatzmeggen.jpg" alt="sample3"></div>
           </div>
           <div class="description">
             <h1>Golfplatz Meggen</h1>
@@ -15,40 +15,17 @@
               bereitet...</p>
           </div>
         </div>
-        <div class="blog-card alt">
+
+        <div class="blog-card alt" @click="redirect('/palace')">
           <div class="meta">
             <div class="photo">
-              <img class="photo" src="/img/sample3.jpg" alt="sample3">
+              <img class="photo" src="/img/HotelPalace.jpg" alt="sample3">
             </div>
           </div>
           <div class="description">
-            <h1>Radio 32 Skitag</h1>
-            <h2>01.01.25</h2>
-            <p>Ski fahren in Meiringen mit Radio32</p>
-          </div>
-        </div>
-        <div class="blog-card">
-          <div class="meta">
-            <div class="photo">
-              <img class="photo" src="/img/sample1.jpg" alt="sample5">
-            </div>
-          </div>
-          <div class="description">
-            <h1>Radio 32 Skitag</h1>
-            <h2>01.01.25</h2>
-            <p>Ski fahren in Meiringen mit Radio32</p>
-          </div>
-        </div>
-        <div class="blog-card alt">
-          <div class="meta">
-            <div class="photo">
-              <img class="photo" src="/img/sample4.jpg" alt="sample4">
-            </div>
-          </div>
-          <div class="description">
-            <h1>Radio 32 Skitag</h1>
-            <h2>01.01.25</h2>
-            <p>Ski fahren in Meiringen mit Radio32</p>
+            <h1>Hotel Palace Gstaad</h1>
+            <h2>15.12.24</h2>
+            <p>Das Gstaad Palace verzaubert seit über einem Jahrhundert Gäste aus nah und fern ...</p>
           </div>
         </div>
       </div>
@@ -56,4 +33,8 @@
   </div>
 </template>
 <script setup>
+
+function redirect(url){
+  location.href = url
+}
 </script>
