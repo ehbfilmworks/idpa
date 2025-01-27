@@ -8,7 +8,16 @@
           angefragt, ob wir im Rahmen unserer IDPA ein Image-Video für ihre Golfanlage drehen dürfen. Wir wurden an den
           Inhaber weitergeleitet und haben sehr spontan mit ihm ein Datum für die Dreharbeiten abgemacht. </p>
       </div>
-      <video src="/img/meggen_video_1080.mp4" controls class="w-50 mt-3 mb-3"></video>
+      <div class="col-md-6">
+        <div class="video-container">
+          <iframe
+              src="https://www.youtube.com/embed/-r2xKGWohfw"
+              frameborder="0"
+              allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <!--      <video src="/img/meggen_video_1080.mp4" controls class="w-50 mt-3 mb-3"></video>-->
       <div class="col-md-10">
         <p>Am Drehtag vor Ort wurden wir sehr herzlich empfangen. Der Inhaber hat uns alles erklärt und uns sogar eine
           ganze

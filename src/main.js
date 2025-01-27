@@ -16,6 +16,7 @@ import './assets/cards.scss';
 import './assets/video.scss';
 import './assets/project.scss';
 import './assets/info.scss';
+import './assets/iframe.scss';
 
 library.add(fas, far,fab)
 const app = createApp(App)

@@ -11,8 +11,14 @@
           Videos
           vom Hotel aufzunehmen. </p>
       </div>
-      <div class="col-md-10">
-        <video src="/img/palace_video.mp4" controls class="w-50 mt-3 mb-3"></video>
+      <div class="col-md-6">
+        <div class="video-container">
+          <iframe
+              src="https://www.youtube.com/embed/ZFFMn09wlKI"
+              frameborder="0"
+              allowfullscreen
+          ></iframe>
+        </div>
       </div>
       <div class="col-md-10">
         <p>Es war ein sehr aufregender, spannender und anstrengender Tag. Wir durften den SPA-Bereich, die Suiten, die
