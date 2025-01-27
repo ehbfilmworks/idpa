@@ -22,7 +22,7 @@
       <div class="col-sm d-flex flex-column align-items-end">
         <div class="pe-4 ps-4">
           <p style="opacity: 1">EHB - Film works</p>
-          <p>ehbfilmworks@gmail.com</p>
+          <p>ehbfilmworks@gmail.ch</p>
           <p>+41 78 187 33 33</p>
         </div>
         <iframe class="w-100"
