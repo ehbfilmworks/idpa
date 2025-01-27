@@ -3,5 +3,8 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-
 *.ymlF
+node_modules/
+dist/
+build/
+.DS_Store
