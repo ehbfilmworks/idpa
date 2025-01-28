@@ -6,6 +6,8 @@ import Info from "../views/info.vue";
 import Contact from "../views/contact.vue";
 import Offer from "@/views/offer.vue";
 import Drone from "@/views/drone.vue";
+import Meggen from "@/views/DetailViews/meggen.vue";
+import Palace from "@/views/DetailViews/palace.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,8 +28,8 @@ const router = createRouter({
             component: Project
         },
         {
-            path: '/drone',
-            name: 'drone',
+            path: '/equipment',
+            name: 'equipment',
             component: Drone
         },
         {
@@ -40,6 +42,16 @@ const router = createRouter({
             path: '/contact',
             name: 'contact',
             component: Contact
+        },
+        {
+            path: '/meggen',
+            name: 'meggen',
+            component: Meggen
+        },
+        {
+            path: '/palace',
+            name: 'palace',
+            component: Palace
         }
     ]
 })
