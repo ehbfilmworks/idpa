@@ -11,13 +11,9 @@
     <div style="margin-top: 100px">
       <section class="hero-section mt-4">
         <div class="card-grid">
-
-
-          <div
-              class="card-plus-text"
-              @mouseover="data.showReelText = true"
-              @mouseleave="data.showReelText = false"
-          >
+          <div class="card-plus-text"
+               @mouseover="data.showReelText = true"
+               @mouseleave="data.showReelText = false">
 
             <a class="card">
               <div class="card__background">
@@ -34,23 +30,17 @@
               <div v-if="data.showReelText" class="info-text">
                 <h2>🎥 Instagram Reels: Kurz und kraftvoll</h2>
                 <p>
-                  Wir erstellen dynamische, trendige und aufmerksamkeitsstarke
-                  Reels, die Ihre Zielgruppe direkt ansprechen. Mit kreativem
-                  Storytelling, schnellen Schnitten und packenden Effekten
-                  optimieren wir Ihre Inhalte speziell für Instagram – damit
-                  sie liken, teilen und viral gehen! Ob Produktpräsentationen,
-                  Event-Highlights oder hinter den Kulissen – wir setzen alles
-                  perfekt in Szene.
+                  Marketing spielt in der heutigen Zeit eine sehr grosse Rolle, deshalb bieten wir Videos im Hochformat
+                  für Instagram-Reels oder TikToks an. Der Inhalt des Videos wird, falls vorhanden, vom Marketing-Team
+                  vorgelegt. Die Ideen können jedoch auch uns überlassen werden.
                 </p>
               </div>
             </transition>
           </div>
 
-          <div
-              class="card-plus-text"
-              @mouseover="data.showCinematicText = true"
-              @mouseleave="data.showCinematicText = false"
-          >
+          <div class="card-plus-text"
+               @mouseover="data.showCinematicText = true"
+               @mouseleave="data.showCinematicText = false">
 
             <a class="card">
               <div class="card__background">
@@ -66,30 +56,17 @@
               <div v-if="data.showCinematicText" class="info-text">
                 <h2>🎬 Cinematic Videos: Geschichten, die bewegen</h2>
                 <p>
-                  Unsere cinematic Videos sind mehr als nur Filme – sie sind visuelle
-                  Erlebnisse. Mit professionellen Kameratechniken, intensiver
-                  Nachbearbeitung und packendem Soundtrack kreieren wir emotionale
-                  und hochwertige Videos.
+                  Das Image-Video ist ein 1-3 Minuten langes Video. Die Dauer des Videos kann vom Kunden festgelegt oder
+                  uns überlassen werden. Gefilmt wird mit Drohne und Kamera für Detailaufnahmen.
                 </p>
-                <ul>
-                  <li>Imagefilme: Präsentieren Sie Ihre Marke authentisch und eindrucksvoll.</li>
-                  <li>Eventfilme: Halten Sie besondere Momente für die Ewigkeit fest.</li>
-                  <li>
-                    Produktvideos: Zeigen Sie Ihre Innovationen in einem neuen Licht.
-                    Wir legen Wert auf hochwertige Ästhetik und eine klare Botschaft,
-                    die Ihre Zielgruppe überzeugt.
-                  </li>
-                </ul>
               </div>
             </transition>
           </div>
 
 
-          <div
-              class="card-plus-text"
-              @mouseover="data.showDroneText = true"
-              @mouseleave="data.showDroneText = false"
-          >
+          <div class="card-plus-text"
+               @mouseover="data.showDroneText = true"
+               @mouseleave="data.showDroneText = false">
 
             <a class="card">
               <div class="card__background">
@@ -106,36 +83,10 @@
               <div v-if="data.showDroneText" class="info-text">
                 <h2>🚁 Drohnenaufnahmen: Perspektiven, die begeistern</h2>
                 <p>
-                  Unsere Drohnenshots eröffnen Ihnen neue Horizonte!
-                  Ob beeindruckende Luftbilder Ihrer Location, actionreiche
-                  Verfolgungssequenzen oder epische Landschaftsaufnahmen
-                  – unsere Drohnenaufnahmen sorgen für einen Wow-Effekt.
-                  Dank moderner Technologie und kreativer Planung
-                  sind unsere Drohnenvideos perfekt für:
+                  Durch die Drohnenperspektive können neue Winkel entdeckt werden. Aus diesem Grund bieten wir auch
+                  Drohnen-Bilder an. Diese Bilder sind sehr gut geeignet für die sozialen Medien. In diesem Produkt ist
+                  auch das Bearbeiten des Bildes inklusive.
                 </p>
-                <ul>
-                  <li>Immobilienmarketing</li>
-                  <li>Unternehmenspräsentationen</li>
-                  <li>Hochzeiten und Events</li>
-                  <li>Tourismus- und Outdoor-Projekte</li>
-                </ul>
-                <h2>Warum Sie uns wählen sollten:</h2>
-                <ul>
-                  <li>Kreative Expertise: Wir verstehen, wie man Geschichten erzählt, die im Gedächtnis bleiben.</li>
-                  <li>
-                    Modernste Technik: Von High-End-Kameras bis zu Drohnen der neuesten
-                    Generation – wir sind technisch bestens ausgestattet.
-                  </li>
-                  <li>
-                    Persönliche Betreuung: Ihre Wünsche stehen im Mittelpunkt. Wir
-                    begleiten Sie von der Idee bis zur finalen Umsetzung.
-                  </li>
-                  <li>
-                    Vielfalt & Flexibilität: Egal ob für Social Media,
-                    Unternehmenskommunikation oder private Projekte – wir liefern
-                    maßgeschneiderte Lösungen.
-                  </li>
-                </ul>
               </div>
             </transition>
           </div>
