@@ -32,7 +32,7 @@
       </div>
       <div class="col-md-10">
         <div class="d-flex justify-content-center">
-          <img src="/img/HotelPalace.jpg" class="mt-3 w-50 ">
+          <img src="/images/HotelPalace.jpg" class="mt-3 w-50 ">
         </div>
       </div>
     </div>

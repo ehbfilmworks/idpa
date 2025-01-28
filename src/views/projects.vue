@@ -6,7 +6,7 @@
       <div class="blog-container">
         <div class="blog-card" @click="redirect('/meggen')">
           <div class="meta">
-            <div><img class="photo" src="/img/golfplatzmeggen.jpg" alt="sample3"></div>
+            <div><img class="photo" src="/images/golfplatzmeggen.jpg" alt="sample3"></div>
           </div>
           <div class="description">
             <h1>Golfplatz Meggen</h1>
@@ -19,7 +19,7 @@
         <div class="blog-card alt" @click="redirect('/palace')">
           <div class="meta">
             <div class="photo">
-              <img class="photo" src="/img/HotelPalace.jpg" alt="sample3">
+              <img class="photo" src="/images/HotelPalace.jpg" alt="sample3">
             </div>
           </div>
           <div class="description">

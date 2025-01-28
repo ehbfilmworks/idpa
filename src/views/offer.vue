@@ -21,7 +21,7 @@
 
             <a class="card">
               <div class="card__background">
-                <img src="/img/reel.jpg" alt="efficiency">
+                <img src="/images/reel.jpg" alt="efficiency">
               </div>
               <div class="card__content">
                 <p class="card__category">EHB-Filmworks</p>
@@ -54,7 +54,7 @@
 
             <a class="card">
               <div class="card__background">
-                <img src="/img/cinematic.jpg" alt="uptoDateS">
+                <img src="/images/cinematic.jpg" alt="uptoDateS">
               </div>
               <div class="card__content">
                 <p class="card__category">EHB-Filmworks</p>
@@ -93,7 +93,7 @@
 
             <a class="card">
               <div class="card__background">
-                <img src="/img/droneshots.jpg" alt="personal">
+                <img src="/images/droneshots.jpg" alt="personal">
               </div>
               <div class="card__content">
                 <p class="card__category">EHB-Filmworks</p>

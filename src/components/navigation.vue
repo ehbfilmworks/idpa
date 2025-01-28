@@ -6,7 +6,7 @@
     <div class="container">
       <li class="nav-item removeDot">
         <router-link to="/">
-          <img src="/img/Logo_EHB_Filmworks_SW.png" width="150px" class="mt-5 me-5 mb-5">
+          <img src="/images/Logo_EHB_Filmworks_SW.png" width="150px" class="mt-5 me-5 mb-5">
         </router-link>
       </li>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Toggler"

@@ -1,7 +1,7 @@
 <template>
   <div class="video-wrapper">
     <video loop autoplay muted playsinline class="backgroundVideo">
-      <source src="/img/homevideo.mp4" type="video/mp4">
+      <source src="/images/homevideo.mp4" type="video/mp4">
       <!-- Fallback für nicht unterstützte Browser -->
       Your browser does not support the video tag.
     </video>
@@ -31,7 +31,7 @@
         <div class="card-grid">
           <a class="card" href="#">
             <div class="card__background" >
-              <img src="/img/efficiency.jpg" alt="efficiency">
+              <img src="/images/efficiency.jpg" alt="efficiency">
             </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
@@ -40,7 +40,7 @@
           </a>
           <a class="card" href="#">
             <div class="card__background" >
-              <img src="/img/upToDate.jpg" alt="uptoDateS">
+              <img src="/images/upToDate.jpg" alt="uptoDateS">
             </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
@@ -49,7 +49,7 @@
           </a>
           <a class="card" href="#">
             <div class="card__background" >
-              <img src="/img/personal.jpg" alt="personal">
+              <img src="/images/personal.jpg" alt="personal">
             </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
@@ -58,7 +58,7 @@
           </a>
           <a class="card" href="#">
             <div class="card__background" >
-              <img src="/img/motivated.jpg" alt="motivated">
+              <img src="/images/motivated.jpg" alt="motivated">
             </div>
             <div class="card__content">
               <p class="card__category">EHB-Filmworks</p>
@@ -76,7 +76,7 @@
         <div class="blog-card">
           <div class="meta">
             <div class="photo">
-              <img src="/img/golfplatzmeggen.jpg" alt="Golfplatz Meggen">
+              <img src="/images/golfplatzmeggen.jpg" alt="Golfplatz Meggen">
             </div>
             <ul class="details">
               <li class="author"><a href="#">Zum Video</a></li>
@@ -94,7 +94,7 @@
         <div class="blog-card">
           <div class="meta">
             <div class="photo">
-              <img src="/img/HotelPalace.jpg" alt="Hotel Palace">
+              <img src="/images/HotelPalace.jpg" alt="Hotel Palace">
             </div>
             <ul class="details">
               <li class="author"><a href="#">Zum Video</a></li>

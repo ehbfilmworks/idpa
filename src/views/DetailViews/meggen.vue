@@ -17,7 +17,7 @@
           ></iframe>
         </div>
       </div>
-      <!--      <video src="/img/meggen_video_1080.mp4" controls class="w-50 mt-3 mb-3"></video>-->
+      <!--      <video src="/images/meggen_video_1080.mp4" controls class="w-50 mt-3 mb-3"></video>-->
       <div class="col-md-10">
         <p>Am Drehtag vor Ort wurden wir sehr herzlich empfangen. Der Inhaber hat uns alles erklärt und uns sogar eine
           ganze
@@ -36,7 +36,7 @@
         <p>Model - Max Mariotto</p>
       </div>
       <div class="col-md-6">
-        <img src="/img/golfplatzmeggen.jpg" class="mt-3 mb-3 w-100">
+        <img src="/images/golfplatzmeggen.jpg" class="mt-3 mb-3 w-100">
       </div>
     </div>
   </div>

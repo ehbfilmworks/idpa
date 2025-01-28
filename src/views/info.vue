@@ -6,7 +6,7 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="our-team">
             <div class="picture">
-              <img class="img-fluid" src="/img/lorin.png">
+              <img class="img-fluid" src="/images/lorin.png">
             </div>
             <div class="team-content">
               <h3 class="name">Lorin Büchel</h3>
@@ -17,7 +17,7 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="our-team">
             <div class="picture">
-              <img class="img-fluid" src="/img/silas.png">
+              <img class="img-fluid" src="/images/silas.png">
             </div>
             <div class="team-content">
               <h3 class="name">Silas Hanyecz</h3>
@@ -29,7 +29,7 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="our-team">
             <div class="picture">
-              <img class="img-fluid" src="/img/sebi.png">
+              <img class="img-fluid" src="/images/sebi.png">
             </div>
             <div class="team-content">
               <h3 class="name">Sebastian Ebner</h3>
