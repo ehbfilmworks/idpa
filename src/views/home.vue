@@ -15,14 +15,11 @@
 
     <div class="w-75 ms-3" style="margin-top: 100px">
       <h2 class="text-start mb-3">Die Idee hinter EHB - Film works</h2>
-      <p class="text-start">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-        invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-        clita
-        kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-        sanctus est Lorem ipsum dolor sit amet.</p>
+      <p class="text-start">Die Kernidee von EHB-Filmworks ist es, durch kreative und professionelle Videoproduktion
+        Unternehmen dabei zu helfen, sich optimal zu präsentieren. Durch den Einsatz von Drohnenaufnahmen können völlig
+        neue Perspektiven eingefangen werden, die mit klassischen Kameras nicht möglich wären. Ergänzt wird das Angebot
+        durch Kurzvideos für Social Media, die sich besonders für Plattformen wie Instagram und TikTok eignen, sowie
+        durch hochwertige Image-Filme, die Unternehmen und ihre Dienstleistungen eindrucksvoll darstellen.</p>
     </div>
 
     <div style="margin-top: 100px">
@@ -30,7 +27,7 @@
       <section class="hero-section mt-4">
         <div class="card-grid">
           <a class="card" href="#">
-            <div class="card__background" >
+            <div class="card__background">
               <img src="/images/efficiency.jpg" alt="efficiency">
             </div>
             <div class="card__content">
@@ -39,7 +36,7 @@
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background" >
+            <div class="card__background">
               <img src="/images/upToDate.jpg" alt="uptoDateS">
             </div>
             <div class="card__content">
@@ -48,7 +45,7 @@
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background" >
+            <div class="card__background">
               <img src="/images/personal.jpg" alt="personal">
             </div>
             <div class="card__content">
@@ -57,7 +54,7 @@
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background" >
+            <div class="card__background">
               <img src="/images/motivated.jpg" alt="motivated">
             </div>
             <div class="card__content">
@@ -85,7 +82,8 @@
           <div class="description">
             <h1>Golfplatz Meggen</h1>
             <h2>vom 1.11.2024</h2>
-            <p>Es gibt sehr viele gute Gründe, Golf zu spielen. Golfen ist für jedes Alter geeignet, hält fit und bereitet...</p>
+            <p>Es gibt sehr viele gute Gründe, Golf zu spielen. Golfen ist für jedes Alter geeignet, hält fit und
+              bereitet...</p>
             <p class="read-more">
               <a href="/projects">Mehr zum Projekt</a>
             </p>
