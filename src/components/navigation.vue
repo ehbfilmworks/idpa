@@ -30,6 +30,9 @@
             <router-link class="nav-link" to="/info">Über uns</router-link>
           </li>
           <li class="nav-item">
+            <router-link class="nav-link" to="/equipment">Equipment</router-link>
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link" to="/contact">Kontakt</router-link>
           </li>
         </ul>
